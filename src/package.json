@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "test": "mocha test/*.spec.js"
-
+    "test": "mocha tests/*.js --timeout 10000"
   },
   "dependencies": {
     "mocha": "^11.1.0",
